@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+    <add name="DefaultConnection"
+         connectionString="Server=.\SQLEXPRESS;Database=ProcessTestDb;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=False;"
+         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <appSettings>
+    <!-- Set to true only when the PC and phone are on a trusted private network. -->
+    <add key="EnableLanMode" value="false" />
+  </appSettings>
+</configuration>
